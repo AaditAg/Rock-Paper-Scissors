@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title> Rock, Paper, Scissors, Shoot! </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section id="main">
+            <header><h1>Rock, Paper, Scissors, Shoot!</h1></header>
+            <div id="round"><span id="roundShow">Round 1</span></div>
+            <section id="separation">
+                <div id="scoreboard">
+                    <div class="badge" id="userBadge">You</div><span id="userScore">0</span> : <span id="computerScore">0</span>
+                    <div class="badge" id="computerBadge">Bot</div>
+                </div>
+                <br>
+                <div id="result"><p>Make a move!</p></div>
+                <br>
+                <section>
+                    <div id="buttons">
+                        <div id="rock" class="buttonChoice" data-selection="rock">🪨</div>
+                        <div id="paper" class="buttonChoice" data-selection="paper">📄</div>
+                        <div id="scissors" class="buttonChoice" data-selection="scissors">✂️</div>
+                    </div>
+                    <div id="resultShow">
+                        <p id="UCBC" class="UC">You: <span id="userChoiceShow">&nbsp;&nbsp;&nbsp;</span></p>
+                        <p id="UCBC" class="BC">Bot: <span id="computerChoiceShow">&nbsp;&nbsp;&nbsp;</span></p>
+                        <p id="UCBC" class="resultOk">Result: <span id="resultOk">TBD</span></p>
+                    </div> 
+                    <br>
+                    <div>
+                        <div id="clear">
+                            <p id="clearReal">Clear</p>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </section>
+        <script src="main.js" defer></script>
+    </body>
+</html>
